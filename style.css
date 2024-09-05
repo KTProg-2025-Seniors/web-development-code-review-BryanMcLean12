@@ -1,8 +1,12 @@
 .top-navbar {
     position: sticky;
     background:red;
-    width:100%;
-    padding:0px;
-    margin:0;
-    height:50px;
+    width:90%;
+    padding:10px;
+    margin:10px;
+    height:1000px;
+}
+.top {
+    display: flex;
+    justify-content: center;
 }
