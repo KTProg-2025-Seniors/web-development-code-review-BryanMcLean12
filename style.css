@@ -19,9 +19,15 @@ body{
     height:2500px;
 }
 
+.main-container {
+    display:flex;
+    height:100%
+}
+
 .suggested-container {
     display:flex;
     justify-content: center;
+    height: 500px;
 }
 
 .suggested1 {
@@ -47,7 +53,7 @@ body{
 
 
 .side-bar{
-    width: 15%;
+    width: 20%;
     height: 100%;
     background-color: #d6d22e;
 }
