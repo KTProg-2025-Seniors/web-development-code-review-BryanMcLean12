@@ -18,3 +18,30 @@ body{
     width:100%;
     height:2500px;
 }
+
+.suggested-container {
+    display:flex;
+    justify-content: center;
+}
+
+.suggested1 {
+    background-color: salmon;
+    width:200px;
+    padding:30px;
+    margin:30px;
+}
+
+.suggested2 {
+    background-color: salmon;
+    width:200px;
+    padding:30px;
+    margin:30px;
+}
+
+.suggested3 {
+    background-color: salmon;
+    width:200px;
+    padding:30px;
+    margin:30px;
+}
+
