@@ -60,12 +60,22 @@ body{
     border-radius: 20px;
 }
 
-
-.side-bar{
-    width: 20%;
-    height: 100%;
-    background-color: #d6d22e;
+.sign-up-btn {
+    background-color: #a0a09c;
+    border:#665e5b;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
 }
+
+.sign-up-btn:hover {background-color: #665e5b;}
 
 a.suggested1 {
     color:black;
