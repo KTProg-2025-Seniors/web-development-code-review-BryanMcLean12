@@ -1,10 +1,20 @@
+/*
+color palette: julio springs
+
+--text: #1f1e06;
+--background: #f4f1fc;
+--primary: #d6d22e;
+--secondary: #8cb1e8;
+--accent: #955edf; 
+*/
+
 body{
     font-family: "Comic Sans MS", "Comic Sans"; 
-    color: #1f1e06;
-    background-color:  #f4f1fc;
+    color:#f4f1fc;
+    background-image: linear-gradient(to right, #d6d22e , #f4f1fc);
 }
 .title-text {
-    color: #1f1e06;
+    color:#f4f1fc;
     font-size:25px;
     font-weight: bold;
     display: inline;
@@ -40,29 +50,63 @@ body{
 }
 
 .suggested1 {
+    text-align: center;
     background-color: salmon;
+    border-style: outset;
+    border-color: #955edf;
+    width: 25%;
     padding:20px;
     margin:30px;
     border-radius: 20px;
 }
 
 .suggested2 {
+    text-align: center;
     background-color: salmon;
+    border-style: outset;
+    border-color: #955edf;
+    width: 25%; 
     padding:20px;
     margin:30px;
     border-radius: 20px;
 }
 
 .suggested3 {
+    text-align: center;
     background-color: salmon;
+    border-style: outset;
+    border-color: #955edf; 
+    width: 25%;
     padding:20px;
     margin:30px;
     border-radius: 20px;
 }
 
+a.suggested1 {
+    color:#f4f1fc;
+}
 
-.side-bar{
-    width: 20%;
-    height: 100%;
-    background-color: #d6d22e;
+a.suggested2 {
+    color:#f4f1fc;
+}
+
+a.suggested3 {
+    color:#f4f1fc;
+}
+
+.footer {
+    position:static;
+    bottom: 0;
+    width: 100%;
+    background-color:#1f1e06;
+    color:#f4f1fc;
+    padding: 20px;
+}
+
+.home-button{
+    float:right;
+    color:#f4f1fc;
+    font-size:25px;
+    font-weight: bold;
+    display: inline;
 }
