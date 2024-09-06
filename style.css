@@ -82,6 +82,13 @@ body{
     border-radius: 20px;
 }
 
+
+.side-bar{
+    width: 20%;
+    height: 100%;
+    background-color: #d6d22e;
+}
+
 a.suggested1 {
     color:#f4f1fc;
 }
